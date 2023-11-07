@@ -1,24 +1,21 @@
 {
-  "name": "voiceflow-discord",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "type": "module",
-  "engines": {
-    "node": ">=14.6.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
-  },
-  "author": "NiKo | Voiceflow",
-  "license": "ISC",
-  "dependencies": {
-    "@discordjs/voice": "^0.16.0",
-    "axios": "^1.4.0",
-    "discord.js": "^14.11.0",
-    "dotenv": "^16.0.3",
-    "node-fetch": "^3.3.2",
-    "ws": "^8.14.2"
-  }
+    "name": "voiceflow-discord",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "author": "NiKo | Voiceflow",
+    "license": "ISC",
+    "dependencies": {
+        "@discordjs/voice": "^0.16.0",
+        "axios": "^1.4.0",
+        "discord.js": "^14.11.0",
+        "dotenv": "^16.0.3"
+    },
+    "engines": {
+        "node": "18.15.0"
+    }
 }
